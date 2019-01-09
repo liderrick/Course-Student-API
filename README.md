@@ -1,6 +1,6 @@
 # Course Student API
 
-This is a RESTful API that allows *Users* (i.e. instructors) create *Courses* and *Students*, and assign *Students* to their *Courses*. The API uses [Google Datastore](https://cloud.google.com/datastore/) as its database and [Auth0](https://auth0.com/) for user authentication. You can make API calls [here](https://cs493-final-project-derrick.appspot.com/).
+This is a RESTful API that allows *Users* (i.e. instructors) to create *Courses* and *Students*, and assign *Students* to their *Courses*. The API uses [Google Datastore](https://cloud.google.com/datastore/) as its database and [Auth0](https://auth0.com/) for user authentication. You can make API calls [here](https://cs493-final-project-derrick.appspot.com/).
 
 ## Database ER Diagram
 <div align="center">
