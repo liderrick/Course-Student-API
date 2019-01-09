@@ -27,8 +27,8 @@ This is a RESTful API that allows *Users* (i.e. instructors) create *Courses* an
 1. *User* creates a new account using `POST /login/signup`.
 2. *User* logs into account using `POST /login`. *User* saves the value to the property `id_token`.
 3. For each request that requires authentication, *User* adds an `Authorization` header to request with the value `Bearer <id_token_value>`. Note that `Bearer` is the `token_type`.
-  * For example, if the value of `id_token` returned from `POST /login` was `edc...u8a`. Then for each request that requires authentication, an `Authorization` header would be added with the value `Bearer edc...u8a`.
-  * Note that `id_token` value is greater than 1000 characters in length. The above sample was simplified for readability.
+    * For example, if the value of `id_token` returned from `POST /login` was `edc...u8a`. Then for each request that requires authentication, an `Authorization` header would be added with the value `Bearer edc...u8a`.
+    * Note that `id_token` value is greater than 1000 characters in length. The above sample was simplified for readability.
 
 ## Routes
 * [**POST /login/signup**](https://liderrick.github.io/course-student-api/documentation.htm#POST-login-signup)
